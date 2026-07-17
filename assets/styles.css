@@ -517,6 +517,11 @@ a {
   border-color: var(--line-dark);
 }
 
+.repertoire .eyebrow {
+  font-size: clamp(0.84rem, 1vw, 0.96rem);
+  letter-spacing: 0.2em;
+}
+
 .repertoire .section-inner {
   width: min(100%, 1320px);
 }
@@ -540,7 +545,9 @@ a {
 
 .repertoire-card > span {
   color: var(--crimson);
-  font-size: 0.7rem;
+  font-size: clamp(1rem, 1.25vw, 1.15rem);
+  font-weight: 500;
+  letter-spacing: 0.08em;
 }
 
 .repertoire-card h3 {
@@ -633,7 +640,8 @@ a {
 
 .discipline-grid article > span {
   color: var(--crimson);
-  font-size: 0.68rem;
+  font-size: clamp(1rem, 1.25vw, 1.15rem);
+  font-weight: 500;
   letter-spacing: 0.12em;
 }
 
