@@ -208,14 +208,31 @@
 
     <section class="contact" id="contact">
       <div class="section-inner">
-        <p class="eyebrow">Professional enquiries</p>
-        <h2>Bring the music to life.</h2>
-        <a class="contact-email" href="mailto:biseracadlovska@yahoo.com">biseracadlovska@yahoo.com ↗</a>
-        <div class="contact-links">
-          <a href="https://www.instagram.com/biseracadlovska/" target="_blank" rel="noreferrer">Instagram ↗</a>
-          <a href="https://www.facebook.com/profile.php?id=100063625235488" target="_blank" rel="noreferrer">Facebook ↗</a>
-          <a href="https://www.operabase.com/bisera-chadlovska-a25949/en" target="_blank" rel="noreferrer">Operabase ↗</a>
+        <div class="contact-intro">
+          <p class="eyebrow">Professional enquiries</p>
+          <h2>Let’s create something remarkable.</h2>
+          <p class="contact-lead">For opera, ballet and symphonic engagements, guest appearances, interviews and professional collaborations.</p>
+          <div class="contact-direct">
+            <span>Or write directly</span>
+            <a href="mailto:biseracadlovska@yahoo.com">biseracadlovska@yahoo.com ↗</a>
+          </div>
+          <div class="contact-links">
+            <a href="https://www.instagram.com/biseracadlovska/" target="_blank" rel="noreferrer">Instagram ↗</a>
+            <a href="https://www.facebook.com/profile.php?id=100063625235488" target="_blank" rel="noreferrer">Facebook ↗</a>
+            <a href="https://www.operabase.com/bisera-chadlovska-a25949/en" target="_blank" rel="noreferrer">Operabase ↗</a>
+          </div>
         </div>
+        <form class="contact-form" action="mailto:biseracadlovska@yahoo.com" method="post" enctype="text/plain" data-contact-form data-language="en">
+          <div class="form-row">
+            <label><span>Name</span><input type="text" name="name" autocomplete="name" required></label>
+            <label><span>Email</span><input type="email" name="email" autocomplete="email" required></label>
+          </div>
+          <label><span>Organisation / institution</span><input type="text" name="organization" autocomplete="organization"></label>
+          <label><span>Type of enquiry</span><select name="inquiry" required><option value="" selected disabled>Select</option><option>Opera engagement</option><option>Ballet engagement</option><option>Symphonic concert</option><option>Media / interview</option><option>Other collaboration</option></select></label>
+          <label><span>Message</span><textarea name="message" rows="5" required></textarea></label>
+          <button type="submit">Compose enquiry <span aria-hidden="true">↗</span></button>
+          <p class="form-note" data-form-status aria-live="polite">This opens your email application. No personal information is stored by this website.</p>
+        </form>
       </div>
     </section>
   </main>

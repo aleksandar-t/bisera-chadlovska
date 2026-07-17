@@ -208,14 +208,31 @@
 
     <section class="contact" id="contact">
       <div class="section-inner">
-        <p class="eyebrow">За професионални ангажмани</p>
-        <h2>Музиката нека оживее.</h2>
-        <a class="contact-email" href="mailto:biseracadlovska@yahoo.com">biseracadlovska@yahoo.com ↗</a>
-        <div class="contact-links">
-          <a href="https://www.instagram.com/biseracadlovska/" target="_blank" rel="noreferrer">Instagram ↗</a>
-          <a href="https://www.facebook.com/profile.php?id=100063625235488" target="_blank" rel="noreferrer">Facebook ↗</a>
-          <a href="https://www.operabase.com/bisera-chadlovska-a25949/en" target="_blank" rel="noreferrer">Operabase ↗</a>
+        <div class="contact-intro">
+          <p class="eyebrow">Професионални ангажмани</p>
+          <h2>Да создадеме нешто значајно.</h2>
+          <p class="contact-lead">За оперски, балетски и симфониски ангажмани, гостувања, интервјуа и други професионални соработки.</p>
+          <div class="contact-direct">
+            <span>Или пишете директно</span>
+            <a href="mailto:biseracadlovska@yahoo.com">biseracadlovska@yahoo.com ↗</a>
+          </div>
+          <div class="contact-links">
+            <a href="https://www.instagram.com/biseracadlovska/" target="_blank" rel="noreferrer">Instagram ↗</a>
+            <a href="https://www.facebook.com/profile.php?id=100063625235488" target="_blank" rel="noreferrer">Facebook ↗</a>
+            <a href="https://www.operabase.com/bisera-chadlovska-a25949/en" target="_blank" rel="noreferrer">Operabase ↗</a>
+          </div>
         </div>
+        <form class="contact-form" action="mailto:biseracadlovska@yahoo.com" method="post" enctype="text/plain" data-contact-form data-language="mk">
+          <div class="form-row">
+            <label><span>Име и презиме</span><input type="text" name="name" autocomplete="name" required></label>
+            <label><span>Е-пошта</span><input type="email" name="email" autocomplete="email" required></label>
+          </div>
+          <label><span>Организација / институција</span><input type="text" name="organization" autocomplete="organization"></label>
+          <label><span>Вид на ангажман</span><select name="inquiry" required><option value="" selected disabled>Изберете</option><option>Оперски ангажман</option><option>Балетски ангажман</option><option>Симфониски концерт</option><option>Медиуми / интервју</option><option>Друга соработка</option></select></label>
+          <label><span>Порака</span><textarea name="message" rows="5" required></textarea></label>
+          <button type="submit">Испрати барање <span aria-hidden="true">↗</span></button>
+          <p class="form-note" data-form-status aria-live="polite">Ќе се отвори вашата апликација за е-пошта. Оваа страница не зачувува лични податоци.</p>
+        </form>
       </div>
     </section>
   </main>
