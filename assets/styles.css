@@ -562,33 +562,6 @@ a {
   border-bottom: 1px solid var(--line-dark);
 }
 
-.repertoire-details summary {
-  min-height: 68px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  color: var(--ivory);
-  font-size: 0.78rem;
-  letter-spacing: 0.1em;
-  list-style: none;
-  text-transform: uppercase;
-}
-
-.repertoire-details summary::-webkit-details-marker {
-  display: none;
-}
-
-.repertoire-details summary::after {
-  color: var(--crimson);
-  content: '+';
-  font-size: 1.6rem;
-}
-
-.repertoire-details[open] summary::after {
-  content: '−';
-}
-
 .repertoire-groups {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
