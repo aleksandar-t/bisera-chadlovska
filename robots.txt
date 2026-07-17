@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://biserachadlovska.com/sitemap.xml
+Sitemap: https://aleksandar-t.github.io/bisera-chadlovska/sitemap.xml

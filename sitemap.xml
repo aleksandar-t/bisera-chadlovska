@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://biserachadlovska.com/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://biserachadlovska.com/" />
-    <xhtml:link rel="alternate" hreflang="mk" href="https://biserachadlovska.com/mk/" />
+    <loc>https://aleksandar-t.github.io/bisera-chadlovska/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aleksandar-t.github.io/bisera-chadlovska/" />
+    <xhtml:link rel="alternate" hreflang="mk" href="https://aleksandar-t.github.io/bisera-chadlovska/mk/" />
   </url>
   <url>
-    <loc>https://biserachadlovska.com/mk/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://biserachadlovska.com/" />
-    <xhtml:link rel="alternate" hreflang="mk" href="https://biserachadlovska.com/mk/" />
+    <loc>https://aleksandar-t.github.io/bisera-chadlovska/mk/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aleksandar-t.github.io/bisera-chadlovska/" />
+    <xhtml:link rel="alternate" hreflang="mk" href="https://aleksandar-t.github.io/bisera-chadlovska/mk/" />
   </url>
 </urlset>
