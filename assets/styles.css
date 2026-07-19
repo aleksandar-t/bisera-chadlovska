@@ -436,6 +436,16 @@ a {
   line-height: 1.1;
 }
 
+.engagement-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.engagement-link:hover,
+.engagement-link:focus-visible {
+  color: var(--brass);
+}
+
 .engagement-list p {
   margin: 0.25rem 0 0;
   color: var(--grey);
