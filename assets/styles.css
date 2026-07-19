@@ -922,6 +922,12 @@ a {
   text-transform: uppercase;
 }
 
+@media (max-width: 1400px) {
+  .stage-caption {
+    position: static;
+  }
+}
+
 @media (max-width: 980px) {
   .site-header {
     grid-template-columns: 1fr auto auto;
@@ -1008,10 +1014,6 @@ a {
 
   .hero-image {
     min-height: 480px;
-  }
-
-  .stage-caption {
-    position: static;
   }
 
   .proof {
