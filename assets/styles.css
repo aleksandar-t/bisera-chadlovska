@@ -1010,6 +1010,10 @@ a {
     min-height: 480px;
   }
 
+  .stage-caption {
+    position: static;
+  }
+
   .proof {
     grid-template-columns: repeat(2, 1fr);
   }
